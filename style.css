@@ -1,0 +1,160 @@
+body{ min-height: 100vh;}
+.menuhorizontal{margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'open sans'}
+
+nav {
+max-width: 100%;
+margin:auto;
+background-color:#8C4303 ;
+font-size: 20px;
+margin-top: 50px;
+border-radius: 20px;
+}
+.menuhorizontal { 
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menuhorizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.menuhorizontal > li:hover
+{ background-color:#D99B66;
+border-radius: 30px;
+}
+
+.menuvertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #8C4303;
+}
+
+    .menuhorizontal li:hover .menuvertical {
+        display: block;
+    }
+
+.titulo {font-size:larger
+    font-family 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+
+}
+.titulo1{
+    justify-content: center;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+}
+
+.parrafomenu{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+.imagen2{
+    width: 300px; height: 200px;
+justify-content: center;
+margin-inline-start: 410px;
+margin-inline-end: 10px;
+margin-top: 30px;
+}
+.imagen3{
+    width: 300px; height: 200px;
+    justify-content: center;
+
+
+}
+.nosotros{
+    justify-content: center;
+    text-align: center;
+    background-color: #D99B66;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+
+}
+.platoprincipal{ text-align: center;
+    background-color: #D99B66;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 20px;
+}
+.plato{
+    width: 300px; height: 350px;
+    
+}
+.plato{text-align: center;
+justify-content: center;
+margin-inline-start: 30px;
+}
+.postres{
+    text-align: center;
+    background-color: #D99B66;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 20px;
+}
+
+.postre{
+    margin-top: 20px;
+    width: 300px; height: 350px;
+    margin-inline-start: 30px;
+}
+
+
+.subtitulo{
+    text-align: center;
+    margin-top: 30px;
+}
+.imagen1{
+    width: 200px; height: 300px;
+margin-left: 600px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.diasyhorarios1{
+    text-align: center;
+    background-color: #D99B66;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 20px;
+}
+.diasyhorarios{
+    text-align: center;
+}
+.chichilored{
+width: 250px; height: 100px;
+margin-left: 575px;
+}
+#contacto1 {
+    text-align: center;
+    background-color: #D99B66;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 20px;
+}
+.contacto{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer {
+    background-color: #8C4303;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+border-radius: 20px;}
